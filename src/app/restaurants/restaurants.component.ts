@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Restaurant } from './restaurant/restaurant.model';
+import { RestaurantsServices } from './restaurants.services';
 
 @Component({
   selector: 'mt-restaurants',
@@ -6,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RestaurantsComponent implements OnInit {
 
-  constructor() { }
+  restaurants: Restaurant[];
+
+  constructor(private restaurantsServices: RestaurantsServices) { }
 
   ngOnInit() {
+    this.restaurants = this.restaurantsServices.restaurants();
   }
 
 }
