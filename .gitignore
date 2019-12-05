@@ -17,6 +17,8 @@
 *.launch
 .settings/
 
+yarn.lock
+
 # misc
 /.sass-cache
 /connect.lock
