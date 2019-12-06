@@ -17,9 +17,21 @@ export class ShoppingCartComponent implements OnInit {
   items(): any[] {
     return this.shoppinCardServices.items;
   }
-  
+
   total(): number {
     return this.shoppinCardServices.total()
+  }
+
+  clear(){
+    this.shoppinCardServices.clear()
+  }
+
+  removeItem(item: any){
+    this.shoppinCardServices.removeItem(item)
+  }
+
+  addItem(item: any){
+    this.shoppinCardServices.addItem(item)
   }
 
 }
