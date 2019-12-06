@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ShoppingCardServices } from './shopping-cart.services';
 
 
 @Component({
@@ -7,8 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ShoppingCartComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private shoppinCardServices: ShoppingCardServices
+  ) { }
   ngOnInit() {
+  }
+
+  items(): any[] {
+    return this.shoppinCardServices.items;
+  }
+  
+  total(): number {
+    return this.shoppinCardServices.total()
   }
 
 }
