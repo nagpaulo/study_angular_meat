@@ -370,5 +370,111 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua 10",
+      "number": "11",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantit": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantit": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantit": 1,
+          "menuId": "bread"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Rua A",
+      "number": "100",
+      "optionalAddress": "Apto 104",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantit": 2,
+          "menuId": "capp"
+        },
+        {
+          "quantit": 2,
+          "menuId": "espreso"
+        },
+        {
+          "quantit": 1,
+          "menuId": "starb"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua 123",
+      "number": "111",
+      "optionalAddress": "Apto 104",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantit": 2,
+          "menuId": "capp"
+        },
+        {
+          "quantit": 2,
+          "menuId": "espreso"
+        },
+        {
+          "quantit": 1,
+          "menuId": "starb"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "address": "Rua 444",
+      "number": "111",
+      "optionalAddress": "",
+      "paymentOption": "",
+      "orderItems": [
+        {
+          "quantit": 1,
+          "menuId": "cup-cake"
+        },
+        {
+          "quantit": 1,
+          "menuId": "donut"
+        },
+        {
+          "quantit": 3,
+          "menuId": "bread"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "address": "Rua 1222",
+      "number": "12221",
+      "optionalAddress": "Apto 104",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantit": 2,
+          "menuId": "cup"
+        },
+        {
+          "quantit": 2,
+          "menuId": "straw"
+        },
+        {
+          "quantit": 1,
+          "menuId": "cake"
+        }
+      ],
+      "id": 5
+    }
+  ]
 }
